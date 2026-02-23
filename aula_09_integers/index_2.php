@@ -1,0 +1,26 @@
+<?php
+
+    // INTEIROS (INT
+    
+    // os valores são normalmente definidos com numeros inteiros
+    $valor1 = 100;
+    echo $valor1 . "<br>";
+    
+    // mas podem ser definidos com valores hexadecimais
+    $valor2 = 0xa3;
+    echo $valor2 . "<br>";
+
+    // ou ainda no sistema octal
+    $valor3 = 045;
+    echo $valor3 . "<br>";
+
+    // ou ainda com valores binarios
+    $valor4 = 0b101;
+    echo $valor4 . "<br>";
+
+    // vejamos o que acontece quando ultrapassamos os limites dos inteiros
+    $valor_ultrapassado = PHP_INT_MAX + 1;
+    echo $valor_ultrapassado . "<br>";
+    var_dump($valor_ultrapassado);
+    echo "<br>";
+    // passou a ser do tipo float(numeros com casas decimais)
